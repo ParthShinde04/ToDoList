@@ -11,7 +11,6 @@ class Migration(migrations.Migration):
     dependencies = [
         ('list', '0005_category_task'),
     ]
-
     operations = [
         migrations.AlterField(
             model_name='category',
